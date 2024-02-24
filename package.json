@@ -1,6 +1,6 @@
 {
   "name": "@x.render/render-node-utils",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A library that provides a multitude of utility functions for the node environment.",
   "main": "./lib/index.js",
   "files": [
