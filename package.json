@@ -10,7 +10,7 @@
     "test": "jest",
     "start": "tsc -w",
     "build": "tsc",
-    "prepublishOnly": "npm run test && npm run build",
+    "prepublishOnly": "npm run build && npm run test",
     "eslint-fix": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
     "prepare": "npx render-lint init  --force",
     "render-lint-fix": "npm run eslint-fix"
