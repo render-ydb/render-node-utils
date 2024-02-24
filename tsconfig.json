@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "outDir": "lib",
+    "baseUrl": "./",
+    "declaration": true,
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "typeRoots": ["./node_modules/@types"],
+  "include": ["src/**/*"],
+  "exclude": ["lib", "__tests__"]
+}
